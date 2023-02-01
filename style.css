@@ -1,0 +1,60 @@
+.bg-header {
+    
+    background-image: url('img/BG Banner.png');
+    
+}
+.branco{
+    color: rgb(8, 112, 55);
+}
+.text-blue {
+    color: #28c2ff !important;
+}
+.bg-1 {
+    background-color: #fafafa;
+}
+.bg-2 {
+   background-color: #28c2ff;
+}
+.bg-3 {
+    background-color:#fafafa;
+}
+.bg-4{
+    background-color: rgb(64, 10, 125);
+}
+
+.azul{
+
+    color: rgb(93, 93, 255) !important;
+}
+
+.diagonal-baixo{
+    height:200px;
+   width:100%;
+    left:0;
+    background-image:linear-gradient(-315deg,#53BF9D 48%,#195CA0);
+    position:absolute;
+    bottom:0;
+}
+.diagonal-baixo ::before{
+    content:"";
+    display:block;
+    border-bottom:5vw solid transparent;
+    border-left:100vw solid
+}
+
+
+footer{
+    background-color: #464646;
+}
+
+.logo{
+    margin: 10px;
+}
+
+.btn{
+    margin: 10px;
+
+}
+
+
+
